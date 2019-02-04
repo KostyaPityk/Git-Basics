@@ -120,6 +120,19 @@ namespace SortingAlgorithm
             Qsort(array, j + 1, endIndex);
         }
 
+        public static void BubbleSort(int[] array)
+        {
+            for (int i = 0; i < array.Length; i++)
+            {
+                for (int j = i + 1; j < array.Length; j++)
+                {
+                    if (array[i] > array[j])
+                    {
+                        Swap(ref array[i], ref array[j]);
+                    }
+                }
+            }
+        }
         #endregion
 
         #region Private methods

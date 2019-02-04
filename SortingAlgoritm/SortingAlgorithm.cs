@@ -1,4 +1,4 @@
-﻿//Version 1.1
+﻿//Version 1.1.1
 using System;
 
 namespace SortingAlgorithm
@@ -121,6 +121,10 @@ namespace SortingAlgorithm
             Qsort(array, j + 1, endIndex);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="array"></param>
         public static void BubbleSort(int[] array)
         {
             for (int i = 0; i < array.Length; i++)
